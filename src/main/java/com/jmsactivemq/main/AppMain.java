@@ -8,6 +8,8 @@ import com.jmsactivemq.producer.Producer;
 public class AppMain {
 	
 	public static void main(String[] args) throws JMSException {
+	
+	System.out.println("starting communication");
 		
 		Producer messageProducer = new Producer();
 		
