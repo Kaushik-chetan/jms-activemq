@@ -30,6 +30,8 @@ public class Consumer {
 		Destination destination = session.createQueue(queue);
 
 		MessageConsumer consumer = session.createConsumer(destination);
+		
+		//recieving mesaage from destination queue
 
 		Message message = consumer.receive();
 
